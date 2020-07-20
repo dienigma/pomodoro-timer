@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e74c3c;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+button {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 10px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+button:active {
+  outline: none;
+  transform: scale(0.9);
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer-section {
+  background: #ecf0f1;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.timer-container {
+  margin: 20px;
+}
+.timer-container h1 {
+  text-align: center;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 50px;
+}
+.clock-container {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.clock-container span {
+  font-size: 50px;
+}
+.clock-container h1 {
+  margin: 0;
+}
+
+.heading {
+  font-size: 80px;
+  font-weight: bold;
+}
